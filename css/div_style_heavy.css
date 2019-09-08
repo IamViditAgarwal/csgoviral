@@ -1,0 +1,52 @@
+.heavy_maincontainer
+{
+	display: inline-flex;
+	height: 180px;
+	width: 240px;
+	position: relative;
+	
+}
+.heavy_container_skinImage
+{
+	z-index:103;
+	width: auto; 
+	height: auto; 
+	position: absolute; 
+	cursor: pointer;
+	top: -15%; 
+	right: -4% ;
+	filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+	-webkit-filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+
+} 
+.heavy_container_skinImage:hover
+{
+	top:-17%;
+}
+.heavy_pic
+{
+	position: absolute; 
+	width:98%; 
+	margin-left: 2%;
+	z-index: 1; 
+	margin-top:-6%;
+}
+
+.heavy_dp_container {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    z-index: 140;
+}
+ .heavy_dp {
+    position: absolute;
+    /* top: 2px; */
+    /* right: 2px; */
+    width: 40px;
+    height: 40px;
+    z-index: 140;
+    margin-top: 1px;
+    margin-left: 1px;
+}

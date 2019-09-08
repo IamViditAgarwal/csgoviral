@@ -1,0 +1,58 @@
+.knife_maincontainer
+{
+	display: inline-flex;
+	height: 180px;
+	width: 240px;
+	position: relative;
+	
+}
+
+
+.knife_container_skinImage
+{
+	z-index:103;
+	width: auto; 
+	height: 85%; 
+	position: absolute; 
+	top: -10%; 
+	cursor: pointer;
+	right: 0% ;
+	filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+	-webkit-filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+
+} 
+.knife_container_skinImage:hover
+{
+	top:-12%;
+}
+
+
+.knife_pic
+{
+	position: absolute; 
+	width:73%; 
+	margin-left: 20%;
+	z-index: 1; 
+	margin-top: 6%;
+}
+
+
+.knife_dp_container
+{
+	position: absolute; 
+	top:70%; 
+	right: 0; 
+	width: 40px; 
+	height: 40px; 
+	z-index: 140;
+}
+
+.knife_dp
+{
+	position: absolute; 
+	top:6%; 
+	right: 3%; 
+	width: 40px; 
+	height: 40px; 
+	z-index: 140;
+}

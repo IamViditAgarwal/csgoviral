@@ -1,0 +1,20 @@
+{
+  "name": "paypal_payment",
+  "version": "1.0.0",
+  "description": "Paypal Payment ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "paypal-rest-sdk": "^1.8.1",
+    "winston": "^3.0.0"
+  }
+}

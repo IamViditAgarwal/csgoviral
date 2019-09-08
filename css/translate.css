@@ -1,0 +1,52 @@
+
+				.goog-te-gadget-simple{
+					background-color: black !important;
+					border: none !important;
+				}
+				.goog-te-gadget-icon{
+					display: none;
+				}
+				.goog-te-menu-value{ /*select language*/
+					color: white !important;
+					font-family: HandelGotDBol;
+				}
+				.goog-te-menu-frame
+				{
+					background-color: black;
+					color:white;
+					border-radius: 5px;
+					z-index:1010;
+					position: absolute;
+					top:40px;
+					left:40px;
+					border: none;
+
+				}
+				.goog-te-menu-frame span {
+					background : rgba(220,38,38,0.9);
+					font-size: 30px;
+					position: absolute;
+					top:40px;
+					width: 195px;
+				}
+				.goog-te-menu2
+				{
+					background-color: black;
+					color :white;
+				}	
+				.goog-te-menu2-item, .goog-te-menu2-item-selected
+				{
+						background-color: black;
+						color:white;
+				}
+				#google_translate_element
+				{
+					position: absolute;
+					top: 13px;
+					left: 215px;
+					font-weight: 700;
+					font-size: 20px;
+					display: inline-flex;
+				}
+		
+			

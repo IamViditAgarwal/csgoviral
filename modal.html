@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modal</title>
+
+	
+</head>
+<style type="text/css">
+	.modal {
+		    display: none; /* Hidden by default */
+		    position: fixed; /* Stay in place */
+		    z-index: -1; /* Sit on top */
+		    padding-top: 250px; /* Location of the box */
+		    left: 0;
+		    top: 0;
+		    width: 100%; /* Full width */
+		    height: 100%; /* Full height */
+		    overflow: auto; /* Enable scroll if needed */
+		    background-color: rgb(0,0,0); /* Fallback color */
+		    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+		}
+
+		/* Modal Content */
+		.modal-content {
+		    position: relative;
+		    background-color: rgba(22,22,22,1);
+		    margin: auto;
+		    padding: 0;
+		    border: 2px solid #0dedaf;
+		    width: 40%;
+		    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		    -webkit-animation-name: animatetop;
+		    -webkit-animation-duration: 0.4s;
+		    animation-name: animatetop;
+		    animation-duration: 0.4s;
+		    
+
+		}
+		/* Add Animation */
+		@-webkit-keyframes animatetop {
+		    from {top:-300px; opacity:0} 
+		    to {top:0; opacity:1}
+		}
+
+		@keyframes animatetop {
+		    from {top:-300px; opacity:0}
+		    to {top:0; opacity:1}
+		}
+
+		.modal-header {
+		    padding: 2px 16px;
+		    margin-top: 8px;
+		    margin-bottom :20px;
+		  
+		}
+
+		.modal-body {
+			padding: 2px 16px;
+			text-align: center;
+		}
+
+		.modal-footer {
+		    padding: 2px 16px;
+		    margin-bottom: 5px;
+		    text-align: center;
+		    margin-top: 5%;
+		   
+		}
+		
+		.you_got
+		{
+			font-size:25px;
+			color: white;
+			font-weight: 900;
+		}
+		
+		.continue
+		{
+			padding-top: 10px; 
+			padding-bottom: 10px; 
+			padding-right: 25px; 
+			padding-left: 25px; 
+			font-size: 25px; 
+			margin: 0 auto ; 
+			left:0; right :0;  
+			cursor:pointer;
+			color: #0dedaf;
+			font-weight: 900;
+		}
+		.skin_won
+		{
+			filter: drop-shadow(1px 1px 40px #dddddd);
+			width: 40%;
+			margin-top: -5%;
+			height: auto; 
+
+            
+		}
+		.skin_won_name
+		{
+			color: white;
+			font-weight: 800;
+			font-size:20px;
+			text-align: center;
+		}
+		#skin_won_detail
+		{
+			height: 30%;
+			width:92%;
+			padding-right: 2.5%;
+			padding-left: 2.5%;
+			margin-left: 1.5%;
+			margin-right: 1.5%;
+			margin-top: 2%;
+			text-align: center;
+		}
+
+		#skin_won_detail_upper
+		{
+			height: 50%;
+			color: #b2b2b2;
+		font-size: 16px;
+		text-align: center;
+		}
+		#skin_won_detail_lower
+		{
+			height: 50%;
+			color:#b2b2b2;
+			font-size:16px;
+		}
+		#skin_won_detail_upper_left
+		{
+			display: inline;
+			width: 47%;
+			float: left;
+			text-align: right;
+			margin-right:2% ;
+			color :#b2b2b2;
+			overflow-x: hidden;
+		}
+
+		#skin_won_detail_upper_middle
+		{	
+			width: 2%;
+			display: inline;
+			float: left;
+			text-align: center;
+			color :#b2b2b2;
+		}
+		#skin_won_detail_upper_right
+		{
+			width: 47%;
+			margin-left: 2%;
+			display: inline;
+			float: left;
+			text-align: left;
+			overflow-x: hidden;
+			color :#b2b2b2	;
+		}
+		.fav_font {
+	font-family: HandelGotDBol;
+	 src: url(font/HANDGOTL.ttf);
+	color: white;
+}
+</style>
+<body style="background-color: red;">
+	<div id="myModal" class="modal" style="display: block;">
+
+											  <!-- Modal content -->
+											  <div class="modal-content">
+											    <div class="modal-header">
+												  <div style="text-align: center;"">
+												    <span class="fav_font you_got">
+												        You Got
+												    </span>
+
+													</div>
+											     </div>
+											   
+											    <div class="modal-body">
+											    		<img src="images/ak47.png" alt="Image" title="Skin Won !" class="skin_won">
+											    		<div class="fav_font skin_won_name">AK-47 &nbsp;|&nbsp; The Empress</div>
+											    		<div id="skin_won_detail">
+															<div id="skin_won_detail_upper">
+																<div id="skin_won_detail_upper_left" class="fav_font">Finish Style</div>
+																<div id="skin_won_detail_upper_middle" class="fav_font">:</div>
+																<div id="skin_won_detail_upper_right" class="fav_font">Custom Paint Job</div>
+															</div>
+															<div id="skin_won_detail_lower">
+																<div id="skin_won_detail_upper_left" class="fav_font">Minimal Wear</div>
+																<div id="skin_won_detail_upper_middle" class="fav_font">:</div>
+																<div id="skin_won_detail_upper_right" class="fav_font">0.11</div>
+															</div>
+														</div>
+
+											      
+											    </div>
+											    <div class="modal-footer" >
+												      <div class="continue" >Continue</div>
+												      
+												 
+											    </div>
+											  </div>
+
+										</div>
+</body>
+</html>

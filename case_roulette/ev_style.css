@@ -1,0 +1,107 @@
+#ev-roulette {
+	margin: 0;
+	padding: 15px 0;
+	font-family: sans-serif;
+	height: 140px;
+	width: 600px;
+	overflow: hidden;
+	position: relative;
+	background: black;
+}
+
+#ev-target {
+	position: absolute;
+	top: 0;
+	left: 300px;
+	width: 3px;
+	height: 170px;
+	background: linear-gradient(rgba(255,255,255,0) ,rgba(245,166,73,1) ,rgba(245,166,73,1),rgba(245,166,73,1),rgba(245,166,73,1),rgba(245,166,73,1),rgba(245,166,73,1),rgba(255,255,255,0));
+	z-index: 1100;
+}
+
+#ev-weapons {
+	height: 140px;
+	white-space: nowrap;
+	position: relative;
+	left: 0;
+}
+
+.ev-weapon {
+	display: inline-block;
+	width: 200px;
+	height: 140px;
+}
+
+.ev-weapon-inner {
+	width: 190px;
+	height: 140px;
+	position: relative;
+	background: #282c36;
+	margin-right: 10px;
+}
+
+.ev-weapon-rarity {
+	width: 5px;
+	height: 140px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-milspec {
+	background: #4b69ff;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-restricted {
+	background: #8847ff;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-classified {
+	background: #d32ce6;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-covert {
+	background: #eb4b4b;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-rare {
+	background: #ffd700;
+}
+
+.ev-weapon-rarity.ev-weapon-rarity-uncommon {
+	background: #ddd;
+}
+
+.ev-weapon-inner img {
+	width: 120px;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	left: 35px;
+}
+
+.ev-weapon-text {
+	position: absolute;
+	top: 90px;
+	left: 5px;
+	width: 185px;
+	height: 50px;
+	background: #242531;
+}
+
+.ev-weapon-text p {
+	height: 15px;
+	line-height: 15px;
+	color: #e4e4e4;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ev-weapon-text p:first-child {
+	margin-top: 10px;
+}

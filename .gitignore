@@ -1,0 +1,6 @@
+# Ignore the files/folders here
+.vscode/
+Thumbs.db
+
+# node_modules
+node_modules/

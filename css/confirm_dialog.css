@@ -1,0 +1,119 @@
+/* The confirm_modal (background) */
+.confirm_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* confirm_modal Content */
+.confirm_modal-content {
+    position: absolute;
+    background-color: rgba(0,0,0,0.97);
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    left:25%;
+    right: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    
+
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-400px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.confirm_modal-header {
+    padding: 2px 16px;
+    margin-top: 8px;
+    margin-bottom :20px;
+    color: #0cecaf;
+  
+}
+
+.confirm_modal-body {
+	padding: 2px 16px;
+}
+
+.confirm_modal-footer {
+    padding: 2px 16px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.confirm_modalBody_content
+{
+	/*color:#f2a50e;*/
+	color:white;
+	 font-size:20px;
+	  margin-bottom:40px;
+	   margin-left:7%;
+	    margin-top:10px;
+}
+
+.cont_btn
+{
+	cursor:pointer; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	 padding-right: 25px;
+	  padding-left: 25px; 
+	  background-color:#16361f;
+	   border-radius: 3px; 
+	    border: 2px solid #0ef229;
+	    color:#0ef229;  
+	    font-size: 20px;
+	     margin: 0 auto ; 
+	     margin-right: 15px;
+	     left:0; 
+	     right :0;  
+	
+}
+
+.cont_btn:hover
+{
+	color: #16d366;
+}
+
+.bck_btn
+{
+	cursor:pointer; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	 padding-right: 25px;
+	  padding-left: 25px; 
+	  background-color:#361616;
+	   border-radius: 3px; 
+	    border: 2px solid #f20e0e; 
+	    color:#f20e0e; 
+	    font-size: 20px;
+	     margin: 0 auto ; 
+	     margin-left: 15px;
+	     left:0; 
+	     right :0;  
+}
+
+.bck_btn:hover
+{
+	color: #d31616;
+}

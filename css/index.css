@@ -1,0 +1,530 @@
+#stats_left {
+
+
+	position: absolute;
+	top :6%;
+	left :20%;
+	min-height: 5%;
+	width : 25%;
+	text-align: center;
+
+}
+
+#case_open_stats{
+	color :#43ef90;
+	font-size: 25px;
+	font-family: HandelGotDBol2;
+	src: url(../font/HandelGotDBol.ttf);
+	width :12.5%;
+}
+
+#case_open_text , #case_available_text{
+	color :#bababa;
+	font-size: 13px;
+	font-family: HandelGotDBol2;
+	src: url(../font/HandelGotDBol.ttf);
+	width :12.5%;
+}
+
+#case_available_stat{
+
+	color :#e5f237;
+	font-size: 25px;
+	font-family: HandelGotDBol2;
+	src: url(../font/HandelGotDBol.ttf);
+	width :12.5%;
+
+}
+
+#stats_right {
+
+
+	position: absolute;
+	top :6%;
+	right :20%;
+	min-height: 5%;
+	width : 25%;
+	text-align: center;
+
+}
+
+#players_stats{
+	color :#ff8551;
+	font-size: 25px;
+	font-family: HandelGotDBol2;
+	src: url(font/HandelGotDBol.ttf);
+	width :12.5%;
+}
+
+#online_stat{
+	color :#4edaed;
+	font-size: 25px;
+	font-family: HandelGotDBol2;
+	src: url(font/HandelGotDBol.ttf);
+	width :12.5%;
+}
+
+#players_text , #online_text {
+	color :#bababa;
+	font-size: 13px;
+	font-family: HandelGotDBol2;
+	src: url(font/HandelGotDBol.ttf);
+	width :12.5%;
+}
+
+/* css for the person of the week */
+	#person_of_week{
+		width :58%;
+		position: absolute ;
+		background-color: black ;
+		height: 345%;	
+		top :100%;
+		margin-left: 21%;
+		margin-right: 21%;
+		opacity: 0.8;
+	}
+	 #person_of_week_after{
+	 	
+	 	width:58%;
+	 	position : absolute;
+	 	top:100%;
+	 	height: 345%;
+	 	max-height: 345%;
+	 	min-height: 345%;
+	 	margin-left: 21%;
+	 	margin-right: 21%;
+	 	z-index:1;
+	  }
+
+
+/* css for the cases container on home page */
+	#cases_container{
+		
+		width :65%;
+		min-width: 900px;
+		height: 63%;
+		position: absolute;
+		top :36%;
+		margin-left:17%;
+		padding-right: 3%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+		#cases_container{
+		
+		width :65%;
+		min-width: 730px;
+		height: 63%;
+		position: absolute;
+		top : 42%;
+		margin-left:17%;
+		padding-right: 3%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		}
+
+	}
+	#container_allInOne{
+		
+		min-height : 20px;
+		width: 100%;
+		
+		
+	}
+	#container_rifle{
+		
+		width: 100%;
+		min-height: 20px;
+	}
+	#container_pistol{
+		
+		width:100%;
+		min-height: 20px;
+	}
+	#container_smg{
+		
+		width: 100%;
+		min-height: 20px;
+
+	}
+	#container_heavy {
+		
+		min-height: 20px;
+		width: 100%;
+	}
+
+	#container_sniper{
+		
+		width: 100%;
+		min-height: 20px;
+	}
+	#container_knife {
+		
+		min-height: 20px;
+		width: 100%;
+	}
+
+	#container_glove{
+		
+		width: 100%;
+		min-height: 20px;
+	}
+
+/* buyer  of week css*/
+	#buyer_of_week_div
+	{
+		height: 100%;
+		min-height: 100%; /* to be removed later on*/
+		width:48%;
+		margin-right: 0.75% ;
+		margin-left: 0.75% ;
+		
+		float:left;
+	}
+
+	#buyer_week_title_image
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		position: relative;
+		width :25%;
+		float:left;
+		display:inline;
+		vertical-align: middle;
+		/*min-height: 80px;*/		
+	}
+
+	.buyer_title_img
+	{
+		
+		 height: 40%;
+		 width :90%; 
+		 margin-left: 5%;
+		 margin-right: 5%; 
+		 opacity: 1;
+
+	}
+
+	.dp_class
+	{
+		margin-right: 25%;
+		margin-left: 25%;
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+
+	#buyer_of_week_person_profile_image
+	{
+		width :20%;
+		display: inline;
+		margin : 0 auto;
+		float:left;	
+		height: 100%;
+		 
+	}
+	#buyer_of_week_person_detail{
+		width :25%;
+		
+		float:left;
+		height: 100%;
+		color :#eed66a;
+			
+	}
+
+	.bwpd
+	{
+		text-align: center; 
+		height: 76%;
+		margin-top: 12%;
+		margin-bottom: 12%;
+		overflow: hidden;
+	}
+
+
+	#buyer_of_week_skin_won{
+		width :30%;
+		float:left;
+		text-align: center;
+		
+		height: 100%;
+		
+	}
+
+
+	#buyer_won{
+		font-size: 15px;
+		color:#eed66a;
+		font-weight: bolder;
+	}
+
+	.skin_won_class
+	{
+		width: 90%;
+		max-width: 500px;
+		height: auto;
+		max-height: 90%;
+		overflow: hidden;
+		position: relative;
+		 margin-top: -10%; 
+	}
+
+/*v- line css*/
+	#v_line{
+		min-height:100px;
+		width:1%;
+		float: left;
+		
+	}
+	#line{
+		width: 1px;
+		background-color: #989896;
+		min-height: 80px;
+		margin-top: 10px;
+		margin-left: 40.5%;
+		opacity: 0.5
+	}
+
+/* seller of week css*/
+	#seller_of_week_div{
+		height: 100%;
+		min-height: 100% ;
+		width:48%;
+		margin-right: 0.75%;
+		margin-left: 0.75% ;
+		float:left;
+	}
+	#seller_week_title_image{
+		
+
+		margin-top: 30px;
+		margin-bottom: 30px;
+		position: relative;
+		width :25%;
+		float:left;
+		display:inline;
+		vertical-align: middle;
+	}
+
+	.seller_title_img
+	{
+
+		 height: 40%;
+		 width :90%; 
+		 margin-left: 5%;
+		 margin-right: 5%; 
+		 opacity: 1;
+	}
+
+	#seller_of_week_person_profile_image
+	{
+		width :20%;
+		display: inline;
+		margin : 0 auto;
+		float:left;	
+		height: 100%;
+		
+
+	}
+
+	#seller_of_week_person_detail{
+		
+		color :#f3f3f3;	
+
+		width :25%;
+		
+		float:left;
+		height: 100%;
+		
+	}
+
+	#seller_of_week_skin_won{
+	
+		width :30%;
+		float:left;
+		text-align: center;
+		
+		height: 100%;
+
+
+	}
+	#seller_won{
+		font-size: 15px;
+		color:#f3f3f3;
+		font-weight: bolder;
+
+	}
+
+/*all cases*/
+	#cases_all
+	{
+		width :90%;
+		top :30%;
+		margin-left:5%;
+		overflow-y: scroll;
+		position:  absolute;
+		height: 60%;
+		margin-right: 5% ;
+		
+	}
+
+	@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+   					#cases_all
+					{
+						top:40%;
+						
+					}
+			
+
+		}
+	
+/*back css */
+	#back {
+		font-size: 70px;
+		position: absolute;
+		top:23%;
+		left :10%;
+	}
+	#back>a{
+		text-decoration : none;
+	}
+
+
+/*no case */
+.no_case
+{
+	font-size: 25px;
+	width: 50%;
+	font-weight: 500;
+	height:auto;
+	position: absolute;
+	top:50px;
+	left :24%;
+	right :0;
+	padding-top: 5px:
+	padding-bottom:10px;
+	color:#7b7b7b; 
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	  .no_case {
+	    top:120px;
+	    left:27%;
+	  }
+	
+}
+
+#ccbutton{
+		font-family: HandelGotDBol;
+		font-size: 18px;
+		font-weight: 600;
+		letter-spacing: 0.7px;
+		color: #e9e9e9;
+		background-color: #0e0e0e;
+		border-radius: 3px;
+		border : 3px solid #fd6b39;
+		padding: 11px 35px 11px 35px;
+		box-shadow: 2px 2px 6px #010101;
+		position: absolute;
+		top:250px;
+		left:42.5%;
+		right:46.5%;
+		width:11%;
+		min-width:200px;
+	}
+
+/*floating toast */
+#toast_container {
+    position: fixed;
+    z-index: 999999;
+    pointer-events: none;
+  	box-sizing: border-box;
+  	opacity: 1;
+   
+}
+#toast_container > div {
+    position: relative;
+    pointer-events: auto;
+    overflow: hidden;
+    margin: 0 0 6px;
+    padding: 15px 15px 15px 50px;
+    width: 230px;
+   
+    border-radius: 3px;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    color: #FFF;
+    opacity: 1;
+    /*-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);*/
+}
+
+.toast-top-right {
+    top: 15%;
+    right: 12px;
+}
+.toast-icons
+{
+	position: absolute;
+	left: 4%;
+	top:30%;
+}
+.toast-close-button
+{
+	padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;    
+    position: relative;
+    right: -8px;
+    top:-10px;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    z-index: 9999;
+    line-height: 1;
+}
+.toast-close-button:hover
+{
+	color:black;
+}
+.toast-info
+{
+	
+	vertical-align: baseline;
+	font-size: 17px;
+	height: auto;
+	opacity: 1;
+	
+	margin-bottom: 10px;
+	
+}
+.toast-message
+{
+	
+		text-align: left;
+		  text-justify: inter-word;
+		line-height: 1.5;
+	word-wrap: break-word;
+}
+.message
+{
+	background-color: #2F96B4;
+}
+
+.warning
+{
+	background-color: #F89406;
+}
+.new_feature
+{
+	background-color: #00921a;
+}

@@ -1,0 +1,55 @@
+.sniper_maincontainer
+{
+	display: inline-flex;
+	height: 180px;
+	width: 240px;
+	position: relative;
+	
+}
+
+.sniper_container_skinImage
+{
+	z-index:103;
+	width: auto; 
+	height: auto; 
+	position: absolute; 
+	cursor: pointer;
+	top: -18%; 
+	right: 0% ;
+	filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+	-webkit-filter: drop-shadow(-3px 3px 1px  white) drop-shadow(3px -3px 0 white) ;
+
+} 
+.sniper_container_skinImage:hover
+{
+	top:-20%;
+}
+
+.sniper_pic
+{
+	position: absolute; 
+	width:92%; 
+	margin-left: 5%;
+	z-index: 1; 
+	margin-top: 6.5%;
+}
+
+
+.sniper_dp_container {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    z-index: 140;
+}
+ .sniper_dp {
+    position: absolute;
+    /* top: 2px; */
+    /* right: 2px; */
+    width: 40px;
+    height: 40px;
+    z-index: 140;
+    margin-top: 1px;
+    margin-left: 1px;
+}

@@ -1,0 +1,368 @@
+
+	#case_open_container{
+
+		height: 76%;
+		position: absolute;
+		width: 76%; 
+		top:25%;
+		margin-left: 12%;
+
+		
+	}
+	#upper_container{
+			width: 100%;
+			height:200px;
+			
+	}
+
+	#lower_container{
+		height: 450px;
+		width: 100%;
+		
+		
+	}
+
+/*case - line*/
+	#line_break
+	{
+		float: left;
+		margin-top: 3%;
+		margin-left: 2.8%;
+
+
+	}
+	.case-contain-line{
+		
+		font-family: HandelGotDBol;
+		font-size: 26px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		line-height: 0;
+		margin: 0 auto;
+		padding-right: 3px;
+		padding-left: 3px;
+	}
+	.case-contain-line:before
+	{
+	 background-color: #0cecaf;
+	 content: "";
+	 display: inline-block;
+	 height: 4px;
+	 position: relative;
+	 vertical-align: top;
+	 width: 10%;
+	 overflow: hidden;
+	}
+	.case-contain-line:after
+	{
+	 background-color: #0cecaf;
+	 content: "";
+	 display: inline-block;
+	 height: 4px;
+	 position: relative;
+	 vertical-align: top;
+	 width: 665%;
+	 overflow: hidden;
+	}
+	.case-contain-line:before {
+	 right: 0.3em;
+	 margin-left: -15%;
+	}
+	.case-contain-line:after {
+	 left: 0.3em;
+	 margin-left: 95%;
+	 margin-right: -50%;
+	}
+
+/** cases show case */
+	#cases_showcase{
+		
+		position: absolute;
+		margin-top:3%;
+		margin-left: 1%;
+		margin-right: 2%;
+		width: 96%;
+
+
+	}
+	#cases_showcase >table {
+		width:100%;
+		text-align: center;
+
+	}
+
+/*css for case image*/
+	#case_to_open
+	{
+		display: inline;
+		float: left;
+		
+		width: 50%;
+		height:200px;
+	}
+
+/*css for case open button */
+	#case_price_button{
+		float :right;
+		
+		width: 50%;
+		height :187px;
+		padding-top: 1%;
+	}
+	#enclose{
+			width: 300px;
+			float: right;
+
+			margin: 30px;
+	}
+	#parallelogram {
+			width: 100%;
+			height: 60px;
+			-webkit-transform: skew(155deg);
+			   -moz-transform: skew(155deg);
+			     -o-transform: skew(155deg);
+			background: linear-gradient(#636363, #070707);
+			border: solid #fff 2px;
+			-moz-box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.67), inset -3px -3px 3px rgba(0, 0, 0, 0.95);
+		    -webkit-box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.67), inset -3px -3px 3px rgba(0, 0, 0, 0.95);
+		    box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.67), inset -3px -3px 3px rgba(0, 0, 0, 0.95);
+		    
+		}
+	.freezeText{
+		font-family: HandelGotDBol;
+		color: #fff;
+		font-size: 27px;
+		font-style: italic;
+		letter-spacing: 0.7px;
+		text-shadow: -1.5px -1.5px 0px rgba(0,0,0,0.9), 1px 1px 0px rgba(255,255,255,0.5);
+	}
+	#lit{
+		font-family: HandelGotDBol;
+		color: #1fcd13;
+	}
+
+	#fontOn{
+		position: absolute;
+		z-index: 100;
+		text-align: center;
+		width: 300px;
+		margin-top: 13px;
+	}
+
+	@font-face {
+	    font-family: HandelGotDBol;
+	    src: url(../font/HANDGOTL.TTF);
+	}
+
+/* case contain divs */
+
+	#both
+	{
+		position: relative;
+	}
+	
+	#case_contain_div{
+		width: 240px;
+		height:210px;
+		background-color: grey;
+		border-radius: 4px;
+		box-shadow:3px 3px 20px black;  
+		border: 2px solid #d4d4d4;
+		opacity: 0.43;
+		
+	}
+
+	#case_contain_div_content 
+	{
+		position: absolute;
+		z-index: 10;
+		width: 240px;
+		height:210px;
+		
+	}
+
+	#case_contain_div_upper{
+		width: 100%;
+		height: 58%;
+		background-color:#939393;
+
+	}
+
+	#case_contain_div_upper_content{
+		width: 100%;
+		height: 58%;
+
+	}
+
+	#case_contain_div_upper_content img {
+		width: 70%;
+		margin-left: 9.5%;
+		margin-right: 9.5%;
+		height: auto;
+		margin-top:-1% 
+	}
+
+	#case_contain_div_upper img {
+		width: 86%;
+		margin-left: 7%;
+		margin-right: 7%;
+		height: auto;
+		margin-top:-9% 
+	}
+
+	
+
+	#case_contain_div_lower {
+		width: 100%;
+		height: 42%;
+		background-color:#262626;
+	}
+
+	#case_contain_div_lower_content {
+		width: 100%;
+		height: 42%;
+		
+
+	}
+
+	#case_contain_item_name {
+		padding-top: 5px;
+		text-align: center;
+		width: 96%;
+		padding-right: 2%;
+		padding-left: 2%;
+		height:20px;
+		overflow: hidden ;
+
+	}
+
+	#case_contain_weapon_skin_name
+	{
+		color: white;
+		font-weight: 500;
+		font-style: italic;
+		display: inline;
+		float: left;
+		width: 56%;
+		padding-left: 2%;
+		text-align: left;
+		padding-right: 2%;
+		overflow: hidden;
+		
+	}
+
+	#case_contain_weapon_name
+	{
+		color: white;
+		display: inline;
+		float: left;
+		font-weight: 900;
+		width: 37%;
+		margin-right: 1%;
+		margin-left: 1%;
+		text-align: right;
+		
+		overflow: hidden;
+		
+	}
+
+	#case_contain_item_extras
+	{
+		
+		height: 30px;
+		width:92%;
+		text-align: center;
+		padding-right: 3%;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 3%;
+		
+		margin-top: 2%;
+	}
+
+	#case_contain_item_extras_upper{
+		
+		height: 15px;
+		font-size:12px;
+
+
+	}
+
+	#case_contain_item_extras_lower
+	{
+		height: 15px;
+		font-size: 12px;
+	}
+
+	
+
+	#case_contain_item_extras_upper_left
+	{
+		display: inline;
+		width:40%;
+		float: left;
+		text-align: left;
+		color :#b2b2b2;
+		overflow: hidden;
+
+	}
+
+	#case_contain_item_extras_upper_middle
+	{	
+		width: 1%;
+		display: inline;
+		float: left;
+		text-align: center;
+		color :#b2b2b2;
+	}
+	#case_contain_item_extras_upper_right
+	{
+		width: 49%;
+		display: inline;
+		float: left;
+		text-align: left;
+		margin-left: 5%;
+		overflow: hidden;
+		color :#b2b2b2	;
+	}
+
+	#case_contain_item_odds
+	{
+		
+		width:94%;
+		margin-left: 3%;
+		margin-right: 3%;
+		padding-top: 2.5%;
+		font-size: 16px;
+		font-weight: 900;
+		overflow: hidden;
+
+	}
+
+	#odds_left
+	{
+		display: inline;
+		float: left;
+		width: 45%;
+		text-align: right;
+		padding-right: 4%;
+		overflow: hidden;
+	}
+
+	#odds_middle
+	{
+		display: inline;
+		float: left;
+		width: 1%;
+		text-align: center;
+	}
+	#odds_right
+	{
+		display: inline;
+		float: left;
+		width: 45%;
+		text-align: left;
+		padding-left: 4%;
+		overflow: hidden;
+	}
+

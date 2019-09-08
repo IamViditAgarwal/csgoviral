@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #717171; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgba(0,0,0,0) -0%, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0) 100%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+a {
+	text-decoration: underline;
+	color: white;
+}
+
+article {
+	margin-left: 20px;
+	position: absolute;
+	display: inline;
+	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+.Hfont {
+	font-size: 14px;
+	color: white;
+	font-family: HandelGotDBol;
+}
+
+.support {
+	font-size: 16px;
+	color: #b9b8b8;
+	font-family: HandelGotDBol;
+}
+
+.Bfont {
+	font-size: 13px;
+	color: #b9b8b8;
+	font-family: HandelGotDBol;
+	display: inline;
+}
+
+.marr1 {
+	margin-left: 100px;
+}
+
+#chat_icon {
+	width: 40px;
+	position: absolute;
+	right: 30px;
+	margin-top: 5px;
+}
+
+#header-slab {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	z-index: 1000;
+}
+
+.login-box {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-right: 360px solid transparent;
+	border-top: 120px solid black;
+}
+
+.circle {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.dp-box {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	z-index: 3001;
+}
+
+.dp-border {
+	padding: 2px;
+	position: relative;
+	background-color: white;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.dp-border1 {
+	padding: 2px;
+	position: relative;
+	background-color: #eed66a;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.dp-border2 {
+	padding: 2px;
+	position: relative;
+	background-color: #f3f3f3;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.dp {
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.fav_font {
+	font-family: HandelGotDBol;
+	 src: url(../font/HANDGOTL.TTF);
+	color: white;
+}
+
+.P_name {
+	color: white;
+	float: left;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.green-txt {
+	color: #16d366;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-left: 50px;
+}
+
+#wallet_balance {
+	color: white;
+	display: inline;
+	float: left;
+	max-width: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.lang {
+	position: absolute;
+	top: 13px;
+	left: 215px;
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-flex;
+}
+
+.shama {
+	padding-top: 2px;
+	padding-left: 3px;
+	font-size: 16px;
+}
+
+.main-logo {
+	position: absolute;
+	display: inline-flex;
+	margin: 0 auto;
+}
+
+#hlogo_back {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	z-index: 500;
+}
+
+#xama {
+	z-index: 501;
+}
+
+#main-logo {
+	position: relative;
+	padding-right: 100px;
+	width: 0%;
+	margin: 0 auto;
+	top: 7px;
+	z-index: 1001;
+}
+
+#social-icons {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.title {
+	width: 126px;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 22px;
+	margin: 0 auto;
+	padding-bottom: 2px;
+}
+
+#title {
+	position: absolute;
+	width: 100%;
+	top: 107px;
+}
+
+.social {
+	width: 45px;
+	margin-right: 10px;
+}
+
+.small-line {
+    margin: 0 auto;
+	height: 0.3vh;
+	min-height: 2px;
+	max-height: 3px;
+	background: linear-gradient(to right, rgba(0,0,0,0), #e6e6e6, #e6e6e6, #e6e6e6, #e6e6e6, #e6e6e6, #e6e6e6, #e6e6e6, rgba(0,0,0,0));
+}
+
+.small-line-light {
+    margin: 0 auto;
+	height: 0.2vh;
+	min-height: 2px;
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(255,255,255,0.2), rgba(0,0,0,0));
+}
+
+.goog-te-gadget-simple{
+					background-color: black !important;
+	border: none !important;
+}
+.goog-te-gadget-icon{
+	display: none;
+}
+.goog-te-menu-value{ /*select language*/
+	color: white !important;
+	font-family: HandelGotDBol;
+}
+.goog-te-menu-frame
+{
+	background-color: black;
+	color:white;
+	border-radius: 5px;
+	z-index:1010;
+	position: absolute;
+	top:40px;
+	left:40px;
+	border: none;
+
+}
+.goog-te-menu-frame span {
+	background : rgba(220,38,38,0.9);
+	font-size: 30px;
+	position: absolute;
+	top:40px;
+	width: 195px;
+}
+.goog-te-menu2
+{
+	background-color: black;
+	color :white;
+}	
+.goog-te-menu2-item, .goog-te-menu2-item-selected
+{
+		background-color: black;
+		color:white;
+}
+#google_translate_element
+{
+	position: absolute;
+	top: 13px;
+	left: 215px;
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-flex;
+}
+
+.what {
+	text-decoration:none ; font-weight:400; position: absolute; top:18px; font-size: 15px; right:300px;
+}
+.what:hover
+{
+	text-decoration: underline;
+}
+
+/*notification*/
+#notif-bar{
+	-webkit-transition: width 0.5s; /* Safari */
+	transition: width 0.5s;
+	background-color: #171717; 
+	width: 0px; 
+	height: 300px; 
+	overflow: hidden;
+}
+
+#notif-box{
+	display: flex;
+	width: 195px;
+	font-size: 13px;
+	background-color: #434343;
+	color:  white;
+	margin-top:3px;
+}
+#notif-content{
+	width: 180px; 
+	min-height: 25px; 
+	padding-left: 5px; 
+	padding-top: 5px; 
+	padding-right:8px;
+	padding-bottom: 5px;
+	word-break: break-all;
+}

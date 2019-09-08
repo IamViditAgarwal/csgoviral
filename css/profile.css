@@ -1,0 +1,853 @@
+		#profile_box {
+			width: 70%;
+			height: auto;
+			margin: 0 auto;
+			margin-left: 11%;
+			margin-bottom: 10%;
+			position: absolute;
+			top: 10%;
+			/*overflow-y: scroll;*/	
+			padding-top: 10%;
+			padding-left: 3.5%;
+		}
+
+		.gng_bk
+		{
+			color :white ; font-style: italic; position:absolute;top:11%; left:10%; width:auto;
+			z-index: 1001;
+		}
+
+		@media only screen and (max-width: 1440px) {
+   
+				#profile_box {
+			width: 70%;
+			height: auto;
+			margin: 0 auto;
+			margin-left: 11%;
+			margin-bottom: 10%;
+			position: absolute;
+			top: 13%;
+			/*overflow-y: scroll;*/	
+			padding-top: 10%;
+			padding-left: 3.5%;
+			}
+
+			.gng_bk
+			{
+				color :white ; font-style: italic; position:absolute;top:12%; left:10%; width:auto;
+			}
+
+		}
+
+
+		.wrap_small {
+			position: relative;
+			width: 90%;
+			height: 100%;
+			display: inline-flex;
+			margin-left: 10%;
+		}
+
+		.info-col {
+			width: 50%;
+			height: 100%;
+			margin: 1%;
+			position: relative;
+		}
+		#add_button{
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-right: 15px;
+			padding-left: 15px;
+			background-color: #16361f;
+			border-radius: 3px;
+			border: 2px solid #0ef229;
+			font-size: 1.6vw;
+			color: #0ef229;
+			margin: 0 auto;
+			cursor:pointer;
+		}
+		#add_button:hover{
+			color: #16d366;
+		}
+
+		#save_button{
+			padding-top: 2px;
+			padding-bottom: 5px;
+			padding-right: 8px;
+			padding-left: 10px;
+			background-color: #16361f;
+			border-radius: 3px;
+			border: 2px solid #0ef229;
+			font-size: 1vw;
+			color: #0ef229;
+			cursor:pointer;
+			margin-top: 1.5%;
+		}
+		#save_button:hover{
+			color: #16d366;
+		}
+	
+		#cash_button{
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-right: 15px;
+			padding-left: 15px;
+			background-color: #382915;
+			border-radius: 3px;
+			border: 2px solid #ff9300;
+			font-size: 1.6vw;
+			color: #f7a639;
+			margin-left: 1vw;
+			cursor:pointer;
+		}
+		#cash_button:hover{
+			color: #ff9300;
+		}
+		#create_button{
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-right: 15px;
+			padding-left: 15px;
+			background-color: #17362e;
+			border-radius: 3px;
+			border: 2px solid #0ef4b4;
+			font-size: 1.6vw;
+			color: #0ef4b4;
+			margin-top: 2vh;
+			cursor:pointer;
+		}
+		/*#add_button:active{
+			padding-top: 9.5px;
+			padding-bottom: 9.5px;
+			padding-right: 32px;
+			padding-left: 32px;
+			background-color: #133b24;
+			border-radius: 3px;
+			border: 2px solid #16d366;
+			font-size: 1.9vw;
+		}*/
+
+		.page-font {
+			word-spacing: 3px;font-size: 20px;
+		}
+
+		#tradeURL {
+			background-color: rgba(255,255,255,0.2);
+		    border: 2px solid rgba(0,0,0,0);
+		    color: #79e6c8;
+		    /*font-family: HandelGotDBol;*/
+		    font-size: 1.2vw;
+		    width: 70%;
+		    height: 2.5vh;
+		    padding: 0.4vh;
+		    margin: 0.3vh;
+		}
+
+		#tradeURL:focus {
+			outline: none;
+		}
+		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		    color: #151515;
+		    opacity: 0.7; /* Firefox */
+		}
+
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		    color: #171717;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #171717;
+		}
+
+		#big-dp {
+			position: absolute;
+			background-color: #e6e6e6;
+			height: 12vw;
+			width: 12vw;
+			border-radius: 50%;
+			margin-top: -12vh;
+			margin-left: -12vh;
+		}
+
+		
+
+		.dp_large {
+			background-color: black;
+			width: 11.5vw;
+			height: 11.5vw;
+			overflow: hidden;
+			margin: 0.25vw;
+		}
+
+		#player_itm_info_box {
+			width: 100%;
+			height: 60vh;
+			overflow: hidden;
+		}
+
+		#nav-tab {
+			width: 100%;
+			height: 5%;
+			border-bottom: 2px solid rgba(14,242,181,0.3);
+			padding-bottom: 1%;
+		}
+
+		.prof-nav-button {
+			text-decoration: none;
+			letter-spacing: 1px;
+			font-weight: 600;
+			font-size: 1.3vw;
+			padding: 5px;
+			color: #929090;
+		}
+
+		#case-button {
+			color: #0cecaf;
+		}
+
+		#invt-container {
+			width: 100%;
+			height: 92%;
+			display: none;
+		}
+
+		#case-container {
+			width: 100%;
+			height: 92%;
+			
+			display: block;
+		}
+
+		.inline-container {
+			width: 98%;
+			height: 96%;
+			display: inline-flex;
+			padding: 1%;
+		}
+
+		#invt-items-container {
+			width:auto;
+			max-width: 73%;
+			height: 100%;
+			overflow-y: scroll;
+			
+
+		}
+
+
+		#case-list-conatiner {
+			width: 30%;
+			height: 100%;
+			overflow-y: scroll;
+		}
+
+		@media screen and (max-width: 1440px)
+		{
+				#case-list-conatiner {
+					overflow-x: hidden;
+				}
+		}
+
+
+
+		#case-info-container {
+			width: 70%;
+			height: 100%;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+
+
+		/*item information css*/
+		#item-info-container {
+			width: 29%;
+			height: 100% ;
+	
+			margin-left: 1%;
+			background-color: #2b292c ;
+			margin-top: 0.5%;
+			z-index: 1;
+			
+		}
+
+		#item-info-container_layout {
+			width: 29%;
+			height: 70%;
+			background-color: #343235; 
+
+			margin-left: 1%;
+			margin-top: 0.5%;
+			opacity :0.5;
+		}
+
+		
+
+		.item_pic
+		{
+			height :auto;
+			width :70%;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-top :1%;
+			padding-top: 1%;
+			margin-bottom: 1%;
+		}
+
+		#csgo_image	
+		{
+			width:30px;
+			height:30px;
+			margin-left: 6%;
+			margin-top: 3%;
+			display: inline;
+			float: left;
+		}
+
+		#item_detail_extra
+		{
+			display: inline;
+			float: left;
+			margin-top: 3%;
+			margin-left: 2%;
+			
+
+		}
+
+		#item_detail_game_name, #item_detail_extra_detail
+		{
+			font-size: 12px; 
+			color: #6b6a6a;
+		}
+
+		#item_detail_exterior
+		{
+			margin-left: 6%;
+			color : #909090;
+			margin-top: 6%;
+		}
+
+		#item_detail_name {
+			color: #bbbbbb;
+			font-weight: 900;
+			font-size: 20px;
+			margin-left: 6%;
+			margin-right: 2%;
+			margin-top: 6%;
+			overflow-x: hidden;
+			word-spacing: 5px;
+		}
+
+		#StatTrak_logo
+		{
+			position: relative;
+			float: right;
+			margin-top: 2%;
+			z-index: 15;
+			margin-right:5%;
+			color: #ff9300;
+		}
+
+		/*css for profile cases */
+		.user_profile_cases_list
+		{
+			cursor: pointer;
+			margin-top:15px;
+			position:relative;
+
+		}
+		.lin-grad
+		{
+			height: 95px;
+			width:222px;
+			margin-top: 81px;
+			margin-left: 17px;
+			z-index:150;
+			position: absolute; 
+			background: linear-gradient(to top ,rgb(14, 242, 181), transparent);
+		}
+
+		.no_case
+		{
+			font-size:25px;
+			color : #7b7b7b;
+			position: relative;
+			margin-top:50%;
+			margin-left: 25%;
+		}
+
+		.no_case_list
+		{
+			font-size:25px;
+			color : #7b7b7b;
+			position: relative;
+			margin-top:17%;
+			margin-left: 25%;
+		}
+
+
+		#tradeable_stat
+		{
+			margin-left: 6%;
+			color : #909090;
+			margin-top: 2.6%;
+		}
+
+
+	/*css for item on hold */
+
+		#hld-container {
+			width: 100%;
+			height: 92%;
+			display: none;
+			
+		}
+
+		.li_hld_item
+		{
+			width: 100%;
+			height: 10%;
+		}
+		.list-hld-items
+		{
+
+			
+
+			width: 100%;
+			height: 100%;
+			overflow-y: scroll;
+		}
+		.hld_item_main_div
+		{
+			/*width:90%;
+			height:100%;
+			margin-left: 5%;
+			margin-right: 5%;*/
+
+			width: 100%;
+			height: 100%;
+			overflow-y: scroll;
+		}
+
+		.img_item_hld
+		{
+			display: inline;
+			float: left;
+			width: 20%;
+			padding : 1%;
+			margin-top: -0.5%;
+		}
+
+		.img_item_hld img
+		{
+			width:75%;
+			height: auto;
+
+		}
+		.desc_item_hld
+		{
+
+			display: inline;
+			float: left;
+			width: 30%;
+			padding:1%;
+			margin-top: 1%;
+			height: auto;
+		}
+		.cont_hld
+		{
+			
+
+			 width: 99%;
+		    height: 96%;
+		    display: inline-flex;
+		    padding: 1%;
+		}
+
+		.time_elapse
+		{
+			/*color:  #d33937;*/
+			text-align: center;
+		}
+
+		
+
+		#desc_item_hld_left
+		{ 
+			display: inline;
+			width:40%;
+			float: left;
+			text-align: left;
+			color :#9d9d9d;
+			font-size:14px;
+			overflow: hidden;
+		}
+
+		#desc_item_hld_middle
+		{	
+			width: 1%;
+			display: inline;
+			float: left;
+			text-align: center;
+				color :#9d9d9d;
+			font-size:14px;
+		}
+
+		#desc_item_hld_right
+		{
+			width: 54%;
+			display: inline;
+			float: left;
+			text-align: left;
+			padding-left: 5%;
+			overflow: hidden;
+				color :#9d9d9d;
+			font-size:14px;
+		}
+
+		.top_desc_item_hld
+		{
+			overflow-x: hidden;
+			font-size: 18px;
+			width:100%;
+			height:auto;
+			margin-bottom: 7%;
+		}
+		
+
+		.time_item_hld
+		{
+			width:44%;
+			padding: 1%;
+			height:auto;
+			margin-top: 5%;
+			display: inline;
+			float: left;
+			text-align: center;
+			font-size: 18px;
+			
+		}
+
+		.hld-info-row
+		{
+			width: 98%;
+			margin: 0 auto;
+			padding-right: 1%;
+			padding-left: 1%;
+			position: relative;
+		}
+
+		.hld-top
+		{
+			width: 98%; display: flex; padding: 0.6% 0 0.6% 0;
+			margin-left: 1%;
+			margin-right: 1%;
+			
+		}
+			
+	/*css for history*/
+		#history-container
+		{
+				width: 100%;
+				height: 92%;
+				display: none;
+		}
+		#hist-container {
+			width: 100%;
+			height: 100%;
+			overflow-y: scroll;
+		}
+
+		.hist-box {
+		    width: 99%;
+		    height: 96%;
+		    display: inline-flex;
+		    padding: 1%;
+		   
+		}
+
+		.hist-info-row {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		#hist_date {
+			font-family: HandelGotDBol;
+			font-size: 14px;
+			color: white;
+			position: absolute;
+			right: 0;
+		}
+		#hist_time {
+			font-family: HandelGotDBol;
+			font-size: 14px;
+			color: #9d9d9d;
+			position: absolute;
+			right: 0;
+		}
+
+		.hist-top
+		{
+			width: 100%; display: flex; padding: 1.5% 0 1.5% 0;
+		}
+		.hist-date
+		{
+			width: 15%; position: relative; padding-top: 3%;
+		}
+		.hist-info-det
+		{
+			width: 35%; position: relative; padding-left: 40px; padding-top: 3.5%;
+		}
+		.hist-sld
+		{
+			font-size: 20px; color: #9d9d9d;
+		}
+		.hist-className
+		{
+			font-size: 20px; color: white;
+		}
+		.hist-sign
+		{
+			width: 5%; position: relative; font-size: 25px; font-family: HandelGotDBol; color: white; text-align: center; padding-top: 3.5%;
+		}
+		.hist-item-img
+		{
+			width: 15%; position: relative; padding: 0 1.5% 0 1.5%;	 
+		} 
+
+		.hist-item-wpn
+		{
+			width: 30%; position: relative; padding-top: 2%;
+		}
+
+		.hist-extra
+		{
+			font-size: 12px; color: #9d9d9d;
+		}
+
+
+		/* responsive css for table */
+		@media  screen and (max-width: 1440px)  {
+		
+			/* Force table to not be like tables anymore */
+			 .case_info_tb , .case_info_tb   thead, .case_info_tb  tbody, .case_info_tb  th, .case_info_tb   td, .case_info_tb   tr { 
+				display: block; 
+				
+			}
+			
+			/* Hide table headers (but not display: none;, for accessibility) */
+			.case_info_tb  thead tr { 
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+		
+			 .case_info_tb  td { 
+				/* Behave  like a "row" */
+				margin-top:20px;
+				margin-left:30%;
+				position: relative;
+				
+			}
+			
+			
+
+		}
+
+
+		#delCase
+		{
+			width: 150px;
+			margin-left: 10px;
+			cursor: pointer;
+			color: #c0c0c0;
+			font-weight: 600;
+		}
+		
+
+
+
+				
+		.modal {
+		    display: none; /* Hidden by default */
+		    position: fixed; /* Stay in place */
+		    z-index: 2011; /* Sit on top */
+		    padding-top: 250px; /* Location of the box */
+		    left: 0;
+		    top: 0;
+		    width: 100%; /* Full width */
+		    height: 100%; /* Full height */
+		    overflow: auto; /* Enable scroll if needed */
+		    background-color: rgb(0,0,0); /* Fallback color */
+		    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+		}
+
+		/* Modal Content */
+		.modal-content {
+		    position: relative;
+		    background-color: rgba(0,0,0,0.97);
+		    margin: auto;
+		    padding: 0;
+		    border: 1px solid rgba(14, 244, 180,1);
+		    width: 40%;
+		    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		    -webkit-animation-name: animatetop;
+		    -webkit-animation-duration: 0.4s;
+		    animation-name: animatetop;
+		    animation-duration: 0.4s;
+		    
+
+		}
+
+		/* Add Animation */
+		@-webkit-keyframes animatetop {
+		    from {top:-300px; opacity:0} 
+		    to {top:0; opacity:1}
+		}
+
+		@keyframes animatetop {
+		    from {top:-300px; opacity:0}
+		    to {top:0; opacity:1}
+		}
+
+		.modal-header {
+		    padding: 2px 16px;
+		    margin-top: 8px;
+		    margin-bottom :20px;
+		  
+		}
+
+		.modal-body {
+			margin-top:5%;
+			margin-bottom: 10%;
+			padding: 2px 16px;
+			text-align: center;
+		}
+
+		.modal-footer {
+		    padding: 2px 16px;
+		    margin-bottom: 10px;
+		    text-align: center;
+		    /*background-color: #5cb85c;*/
+		   
+		}
+
+		.close {
+		    color: white;
+		    float: right;
+		    font-size: 28px;
+		    font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+		    color: rgb(14, 242, 181);
+		    text-decoration: none;
+		    cursor: pointer;
+		}
+
+		.funds
+		{
+			   
+			    font-size: 20px;
+			    font-weight: 800;
+			   
+			    padding-left: 5px;
+		}
+
+		.funds:focus {
+			outline: none;
+		}
+		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		    color: #151515;
+		    opacity: 0.7; /* Firefox */
+		}
+
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		    color: #171717;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #171717;
+		}
+
+		.amount_enter
+		{
+			/*width:70%;
+			margin-left: 15%;
+			margin-right: 15%;*/
+		}
+
+		.conditions
+		{
+			font-weight: 500;
+			font-size: 13px;
+			color: #474747;
+		}
+		
+
+/* checkbox */
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}

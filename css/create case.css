@@ -1,0 +1,422 @@
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			vertical-align: middle;
+		}
+		.whole-box{
+			margin-bottom: 3vh;
+		}
+
+		#create_box{
+			width: 70%;
+			position: relative;
+			margin: 0 auto;
+			top: 200px;
+		}
+		.pagename{
+			font-family: HandelGotDBol;
+			font-weight: 600;
+			color: white;
+			letter-spacing: 2px;
+			text-align: center;
+			padding: 1vh;
+		}
+
+		.small-box{
+			width: 90%;
+			background-color: rgba(0,0,0,0.57);
+			margin: 0 auto;
+			padding-top:1vh;
+			padding-bottom: 3vh;
+			padding-left: 1vw;
+			padding-right: 1vw; 
+		}
+
+		.case_button{
+			color: #7b7b7b;
+			font-weight: 600;
+			text-align: center;
+			margin-right: 0.25vw;
+			margin-left: 0.25vw;
+			cursor: -webkit-grab;
+		}
+
+
+
+		.case-grid{
+			display: inline-flex;
+			width: 100%;
+			overflow-x: hidden;
+		}
+
+		.label-imp{
+			font-weight: 400;
+			margin-top: 2vh;
+			margin-bottom: 2vh;
+		}
+
+		.invn-itm{
+			width: 8vw;
+			min-width: 100px;
+			height: 8vw;
+			min-height: 100px;
+			background-color: #343235;
+			padding: 5px;
+			vertical-align: middle;
+			text-align: center;
+			border : 1px solid rgba(0,0,0,0) ;
+			position: relative;
+		}
+
+		.invn-itm:hover{
+			background: radial-gradient(#777777, #343235);
+			outline: 1px solid #0debb0;
+		}
+
+		.invn-itm:active{
+			outline: 2px solid #0debb0;
+		}
+
+		.invn-itm-profile{
+			width: 7.9vw;
+			min-width: 100px;
+			height: 7.9vw;
+			min-height: 100px;
+			background-color: #343235;
+			padding: 2px;
+			vertical-align: middle;
+			text-align: center;
+			border : 1px solid rgba(0,0,0,0);
+			position: relative;
+		}
+
+		.invn-itm-profile:hover{
+			background: radial-gradient(#8c8c8c, #343235);
+			outline: 1px solid #0debb0; 
+		}
+
+		.invn-itm-profile:active{
+			outline: 2px solid #0debb0;
+		}
+
+		.invn-itm-list{
+			width: 8vw;
+			min-width: 100px;
+			height: 8vw;
+			min-height: 100px;
+			background-color: #343235;
+			padding: 5px;
+			vertical-align: middle;
+			text-align: center;
+			/*border : 1px solid white;*/
+			position: relative;
+		}
+
+		
+
+
+
+		.weapon_image{
+			max-height: 70%;  
+		    max-width: 70%; 
+		    width: auto;
+		    height: auto;
+		    /*position: absolute; top: -30px;  bottom: 0;  
+		    left: 0;  
+		    right: 0;  */
+		    position: relative;  
+		    top:5px;
+		    left:5px;
+		    margin: 0 auto;
+		}
+
+		.weapon_info{
+			width: 100%;
+			display: inline-flex;
+			position: relative;
+			margin-bottom: 1vh;
+		}
+
+		.weapon_name{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		.pos{
+			color: #b4b4b4;
+			padding: 5px;		}
+
+		.info{
+			display: inline-flex;
+		}
+
+
+		.oddinp{
+			position: absolute;
+		    top: 0px;
+		    right: 0px;
+		    left: auto;
+		    height: 100%;
+		}
+		#case_name_box {
+			background-color: rgba(255,255,255,0.2);
+		    border: 2px solid rgba(0,0,0,0);
+		    color: white;
+		    font-family: HandelGotDBol; 
+		    font-size: 1.5vw;
+		    width: 50%;
+		    height: 2.5vh;
+		    padding: 0.7vh;
+		}
+
+		#case_name_box:focus {
+			background-color: rgba(13,235,176,0.2);
+		    outline: none;
+		    color: #0debb0;
+		}
+
+		#colorinp{
+			margin-left: 0.7vw;
+			display: none;
+		}
+
+		#gap{
+			width: 100%;
+			height: 4vh;
+			position: relative;
+		}
+
+		#curr{
+			background-color: #343434;
+			color: #16d366;
+			padding: 7px;
+			font-size: 1.5vw;
+			font-weight: 600;
+		}
+
+		#price{
+			background-color: #474747;
+			padding: 7px;
+			font-size: 1.5vw;
+			border: none;
+			margin: none;
+		}
+
+		#pricetag{
+			width: fit-content;
+			display: flex;
+			margin-top: 3vh;
+		}
+
+		/*input[type=text] {
+		    background-color: rgba(255,255,255,0.2);
+		    border: 2px solid rgba(0,0,0,0);
+		    color: white;
+		    font-family: HandelGotDBol; 
+		    font-size: 1.5vw;
+		    width: 50%;
+		    height: 2.5vh;
+		    padding: 0.7vh;
+		}
+
+		input[type=text]:focus {
+		    background-color: rgba(13,235,176,0.2);
+		    border: 2px solid #0debb0;
+		    color: #0debb0;
+		}*/
+
+		.odds {
+			background-color: rgba(0,0,0,0);
+			border-right: none;
+			border-left: none;
+			border-top: none;
+			border-bottom: dashed 3px #4a4a4a;
+			width: 3vw;
+			min-width: 40px;
+			text-align: center;
+			padding: 3px;
+			height: 70%;
+			font-size: 140%;
+		}
+		.odds::-webkit-inner-spin-button, 
+		.odds::-webkit-outer-spin-button { 
+		  -webkit-appearance: none; 
+		  margin: 0; 
+		}
+
+		.odds:focus {
+			outline: none;
+		}
+
+		#sell_button{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 35px;
+			padding-left: 35px;
+			background-color: #133b24;
+			border-radius: 3px;
+			border: 3px solid #16d366;
+			font-size: 2vw;
+			margin: 0 auto;
+			cursor:pointer;
+			pointer-events: none; /* initially it is disabled */
+			opacity: 0.5;
+
+		}
+		#sell_button:hover{
+			color: #16d366;
+		}
+		#sell_button:active{
+			padding-top: 9.5px;
+			padding-bottom: 9.5px;
+			padding-right: 32px;
+			padding-left: 32px;
+			background-color: #133b24;
+			border-radius: 3px;
+			border: 2px solid #16d366;
+			font-size: 1.9vw;
+		}
+
+		#sell_button_cover{
+			text-align: center;
+			padding-top: 10vh;
+			padding-bottom: 5vh;
+			margin: 0 auto;
+			cursor: not-allowed;
+			width: fit-content;
+		}
+
+		.case_box{
+			position: absolute;
+		    top: 0px;
+		    right: 0px;
+		    left: auto;
+		    height: 100%;
+		}
+
+		.case_back{
+			max-height: 80%;
+			margin-top: 15%;
+			z-index: 100;
+			position: relative;
+		}
+
+		.byme{
+			color: black;
+			position: absolute;
+			top: auto;
+			bottom: 0;
+			font-weight: 600;
+			font-size: 17px;
+			z-index:101;
+			padding: 3px;
+		}
+		.bym{
+			color: black;
+			position: absolute;
+			top: auto;
+			bottom: 0;
+			font-weight: 600;
+			font-size: 12px;
+			padding-left: 3px;
+			padding-bottom: 23px;
+			z-index: 101;
+		}
+
+		#case-name{
+			position: absolute;
+			bottom: 50%;
+			font-weight: 600;
+			font-size: 26px;
+			letter-spacing: 1px;
+			padding-left: 5px;
+			z-index: 145;
+			text-shadow: -2px -2px 2px #000000;
+		}
+		#case-price
+		{
+			position: absolute;
+			top:51%;
+			color :white;
+			font-weight: 600;
+			font-size: 21px;
+			letter-spacing: 1px;
+			padding-left: 5px;
+			z-index: 145;
+				 max-width: 130px;
+			    min-width: 100px;
+			    overflow: hidden;
+			text-shadow: -2px -2px 2px #000000;
+		}
+
+		#all_case{
+			position: absolute;
+			width: 90%;
+			margin-left: 7%;
+			z-index: 101;
+		}
+
+		#all_case_color{
+			position: absolute;
+			margin-left: 7%;
+			z-index: 102;
+			mix-blend-mode: soft-light;
+		}
+
+		/* verify button */
+		#verify_btn_div{
+			text-align: center;
+			clear: both;
+
+		}
+		#verify_btn{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 20px;
+			padding-left: 20px;
+			border-radius: 3px;
+			font-size: 1vw;
+			background-color: #4c381d ;
+			border: 2px solid #ff9300 ;
+			color: #ff9300;
+			font-weight: bold;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+
+		/* verify statements */
+		#verify_text{
+			float:left;
+			color :green;
+			font-family: HandelGotDBol;
+			display: none;
+		}
+		#unverify_text {
+			float: right;
+			color: red;
+			font-family: HandelGotDBol;
+			display: none;
+		}	
+
+
+		.rarity_line
+		{
+			top:-50px; width:76%; left:12%; right:12%;
+			position: absolute;
+		}
+
+		@media screen and (max-width: 1500px)
+		{
+			.rarity_line
+			{
+				top: -70px;   
+			}
+		}
+		@media screen and (max-width: 1300px)
+		{
+			.rarity_line
+			{
+				top: -90px;   
+			}
+		}

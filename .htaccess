@@ -1,0 +1,34 @@
+RewriteEngine on
+
+#RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+#RewriteRule .* - [L,R=404]
+
+
+RewriteRule ^profile$ profile.php
+RewriteRule ^whatiscsgoviral$ whatiscsgoviral.php
+
+RewriteRule ^case$ case.php
+
+RewriteRule ^more/more-allInOne$ more/more-allInOne.php
+RewriteRule ^more/more-rifle$ more/more-rifle.php
+RewriteRule ^more/more-pistol$ more/more-pistol.php
+RewriteRule ^more/more-smg$ more/more-smg.php
+RewriteRule ^more/more-heavy$ more/more-heavy.php
+RewriteRule ^more/more-sniper$ more/more-sniper.php
+RewriteRule ^more/more-knife$ more/more-knife.php
+RewriteRule ^more/more-glove$ more/more-glove.php
+
+RewriteRule ^terms\ and\ service$ terms\ and\ service.php
+
+RewriteRule ^case_buy/([0-9]+)/?$ case_buy/case_open.php?id=$1 [QSA]
+
+#Inventory Loading at case.php
+
+RewriteRule ^get_inv_case$ get_inv_case.php
+RewriteRule ^inventory/inventory_category_rifle$ inventory/inventory_category_rifle.php 
+RewriteRule ^inventory/inventory_category_pistol$ inventory/inventory_category_pistol.php 
+RewriteRule ^inventory/inventory_category_smg$ inventory/inventory_category_smg.php 
+RewriteRule ^inventory/inventory_category_heavy$ inventory/inventory_category_heavy.php 
+RewriteRule ^inventory/inventory_category_sniper$ inventory/inventory_category_sniper.php 
+RewriteRule ^inventory/inventory_category_knife$ inventory/inventory_category_knife.php 
+RewriteRule ^inventory/inventory_category_glove$ inventory/inventory_category_glove.php 

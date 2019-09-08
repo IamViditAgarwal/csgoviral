@@ -1,0 +1,236 @@
+/*giveaway modal css*/
+.giveaway_div{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+       
+.giveaway_div_content {
+    position: relative;
+    background-color: rgba(22,22,22,1);
+    margin: auto;
+    padding: 0;
+    border: 1px solid #0dedaf;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    
+
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.giveaway_div_header {
+    padding: 2px 16px;
+    margin-top: 8px;
+    margin-bottom :20px;
+    text-align: center;
+  
+}
+
+.giveaway_div_body {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.giveaway_div_footer {
+    padding: 2px 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+
+.you_got
+{
+    font-size:25px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+        
+.continue
+{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-right: 25px; 
+    padding-left: 25px; 
+    font-size: 25px; 
+    margin: 0 auto ; 
+    margin-top:20px;
+    left:0; right :0;  
+    cursor:pointer;
+    color: #0dedaf;
+    font-weight: 900;
+}
+.skin_won
+{
+    filter: drop-shadow(1px 1px 25px #a0a0a0);
+    width: 40%;
+    margin-top: -5%;
+    height: auto; 
+
+    
+}
+.skin_won_name
+{
+    color: white;
+    font-weight: 400;
+    font-size:20px;
+    width: 100%;
+    overflow-x: hidden;
+
+    text-align: center;
+}
+#skin_won_detail
+{
+    height: 30%;
+    width:92%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#skin_won_detail_upper
+{
+    height: 50%;
+    color: #b2b2b2;
+font-size: 16px;
+text-align: center;
+font-weight: 200;
+}
+#skin_won_detail_lower
+{
+    height: 50%;
+    color:#b2b2b2;
+    font-size:16px;
+    font-weight: 200;
+}
+#skin_won_detail_upper_left
+{
+    display: inline;
+    width: 47%;
+    float: left;
+    text-align: right;
+    margin-right:2% ;
+    color :#b2b2b2;
+    overflow-x: hidden;
+    font-weight: 200;
+}
+
+#skin_won_detail_upper_middle
+{   
+    width: 2%;
+    display: inline;
+    float: left;
+    text-align: center;
+    color :#b2b2b2;
+    font-weight: 200;
+}
+#skin_won_detail_upper_right
+{
+    width: 47%;
+    margin-left: 2%;
+    display: inline;
+    float: left;
+    text-align: left;
+    overflow-x: hidden;
+    color :#b2b2b2  ;
+    font-weight: 200;
+}
+@font-face
+{
+    font-family: HANDGOTL;
+    src: url(../font/HANDGOTL.TTF);
+}
+.fav_font1 {
+    font-family: HANDGOTL;
+    
+}
+
+#case_win_item_weapon_name
+{
+    display: inline;
+    width:47%;
+    float: left;
+    text-align: right;
+    margin-right: 2%;
+    color: white;
+    overflow-x:hidden; 
+}
+#vertical_line
+{
+    width: 2%;
+    display: inline;
+    float: left;
+    text-align: center;
+    color : white;
+    
+}
+#case_win_item_skin_name
+{
+    width: 47%;
+    margin-left: 2%;
+    display: inline;
+    float: left;
+    text-align: left;
+    overflow-x: hidden;
+    color :white  ;
+    
+}
+.winner
+{
+	text-align: center;
+	margin-top: 20px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 20px;
+}
+.winner h2
+{
+	font-weight: 500;
+	color:white;
+	margin-bottom: 15px;
+
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: inline;
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #0dedaf;
+    text-decoration: none;
+    cursor: pointer;
+}
