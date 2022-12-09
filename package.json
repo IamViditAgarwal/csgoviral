@@ -11,7 +11,7 @@
   "dependencies": {
     "cors": "^2.8.4",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mysql": "^2.15.0",
     "nodemon": "^1.17.5",
     "paypal-rest-sdk": "^1.8.1",
